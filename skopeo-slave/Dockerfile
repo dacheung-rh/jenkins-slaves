@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ocp-tools-4/jenkins-rhel8:v4.12.0-1675704988.1678874770
+FROM registry.redhat.io/ocp-tools-4/jenkins-agent-base-rhel8:v4.12.0-1675702335
 
 LABEL com.redhat.component="jenkins-skopeo-slave" \
       name="rhel8/jenkins-skopeo-slave" \
